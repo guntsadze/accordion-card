@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.accordion-container{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: linear-gradient(#B068E9,  #6463E7);
+  height: 100vh;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.accordion-div{
+  display: flex;
+  background-color: white;
+  width: 920px;
+  height: 509px;
+  border-radius: 23px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.woman-div{
+  position: relative;
+  top: 30%;
+  left: -8%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  width: 471.69px;
+  height: 277.97px;
 }
+
+.woman{
+  width: 472px;
+  height: 359px;
+}
+
+.box{
+  position: absolute;
+  left: -4%;
+  top: 21%;
+}
+
+.accordion-card{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 0 23px 23px 0;
+}
+
+.content-div{
+  cursor: pointer;
+  width: 300px;
+  height: 30px;
+  transition: 0.3s;
+}
+
+.content-div p{
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4B4C5F;
+}
+
+.content-div:hover{
+  color: #F47B56;
+}
+
