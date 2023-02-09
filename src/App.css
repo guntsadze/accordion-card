@@ -65,6 +65,11 @@
   font-size: 14px;
   line-height: 17px;
   color: #4B4C5F;
+  transition: 0.5s;
+}
+
+.anime{
+  opacity: 0;
 }
 
 .content-div:hover{

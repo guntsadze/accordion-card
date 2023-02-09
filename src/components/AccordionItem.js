@@ -5,7 +5,11 @@ export default function AccordionItem(props) {
   return (
     <div className="content-div" onClick={() => handleClick(itemNumber)}>
       {title}
-      {activeAccordionNumber === itemNumber ? <p>{content}</p> : null}
+      {activeAccordionNumber === itemNumber ? (
+        <p>{content}</p>
+      ) : (
+        <p className="anime">{content}</p>
+      )}
     </div>
   );
 }
