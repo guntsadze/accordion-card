@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/accordion-card/static/css/main.04448c0e.css",
+    "main.js": "/accordion-card/static/js/main.be5a604c.js",
+    "index.html": "/accordion-card/index.html",
+    "main.04448c0e.css.map": "/accordion-card/static/css/main.04448c0e.css.map",
+    "main.be5a604c.js.map": "/accordion-card/static/js/main.be5a604c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04448c0e.css",
+    "static/js/main.be5a604c.js"
+  ]
+}
